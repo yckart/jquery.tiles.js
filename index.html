@@ -15,19 +15,21 @@
     </head>
 
     <body>
-        <img id="img1" src="http://ge.tt/api/1/files/8Pz0P4Q/1/blob?download" />
-        <img id="img2" src="http://ge.tt/api/1/files/8e7CZFS/1/blob?download" />
+        <img id="img1" src="http://lorempixel.com/320/240" />
+        <img id="img2" src="http://lorempixel.com/640/480" />
 
         <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
         <script src='jquery.tiles.js'></script>
         <script>
-            $('#img1').tiles({
-                x: 12,
-                y: 1
-            });
-            $('#img2').tiles({
-                gap: 10
-            });
+            window.onload = function () {
+                $('#img1').tiles({
+                    x: 12,
+                    y: 1
+                });
+                $('#img2').tiles({
+                    gap: 5
+                });
+            };
         </script>
     </body>
 </html>

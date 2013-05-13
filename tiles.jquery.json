@@ -12,18 +12,16 @@
         "yannick",
         "albert"
     ],
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Yannick Albert",
         "email": "mail@yckart.com",
         "url": "https://github.com/yckart"
     },
-    "licenses": [
-        {
+    "licenses": [{
             "type": "MIT",
             "url": "http://yckart.com/mit/"
-        }
-    ],
+    }],
     "homepage": "http://yckart.github.com/jquery.tiles.js",
     "demo": "http://yckart.github.com/jquery.tiles.js",
     "docs": "https://github.com/yckart/jquery.tiles.js",
